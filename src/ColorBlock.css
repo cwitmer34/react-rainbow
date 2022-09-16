@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(42, 39, 43);
+  color: white;
+  margin: auto;
+  width: 45%;
+}
+
+.color {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.colorBlock {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  display: inline-block;
+  margin: 1em;
+}
+
+input,
+button {
+  font-size: 1.5em;
+  border: none;
+}
+
+input {
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  background-color: white;
+  border-left: 1px solid black;
+  border-radius: 0 5px 5px 0;
+}
+
+button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+button:active {
+  background-color: rgb(62, 62, 62);
+  color: white;
+}
